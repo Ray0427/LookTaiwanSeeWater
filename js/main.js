@@ -33,7 +33,7 @@ $(function () {
 $(function () {
 	$.ajax({
 		type: "GET",
-		url: "reservoir.json",
+		url: "http://nccucs-project.github.io/LookTaiwanSeeWater/reservoir.json",
 		dataType: "jsonp",
 		success: function (data) {
 
