@@ -34,7 +34,7 @@ $(function () {
 	$.ajax({
 		type: "GET",
 		url: "http://nccucs-project.github.io/LookTaiwanSeeWater/reservoir.json",
-		dataType: "json",
+		dataType: "jsonp",
 		success: function (data) {
 
             //data.data[0] 石門水庫(新北、桃園、新竹)
