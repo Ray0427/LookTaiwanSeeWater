@@ -52,7 +52,7 @@ $('#mySelect').change(function(){
 $(function () {
 	$.ajax({
 		type: "GET",
-		url: "reservoir.json",
+		url: "/reservoir.json",
 		dataType: "jsonp",
 		success: function (data) {
 			for(var i=0 ; i<data.data.length-1;i++){
