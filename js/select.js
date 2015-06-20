@@ -53,7 +53,7 @@ $(function () {
 	$.ajax({
 		type: "GET",
 		url: "reservoir.json",
-		dataType: "json",
+		dataType: "jsonp",
 		success: function (data) {
 			for(var i=0 ; i<data.data.length-1;i++){
 				var newOption = $('<option/>');
